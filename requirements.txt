@@ -5,3 +5,17 @@ langchain_mistralai
 python-dotenv
 pydantic
 duckduckgo-search
+arxiv
+duckduckgo_search
+email_validator
+faiss-cpu
+langchain
+langchain-cohere
+langchain-core
+langchain-ollama
+matplotlib
+ollama
+setuptools
+streamlit
+wikibase-rest-api-client
+wikipedia
