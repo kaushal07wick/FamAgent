@@ -3,3 +3,123 @@
 
 Jellyfish, also known as sea jellies or simply jellies, are the medusa-phase of a group of non-vertebrate animals called cnidaria. They are found in every ocean in the world.
 
+---Research Output---
+Timestamp: 2025-06-07 07:11:14
+
+Published: 2000-08-22
+Title: Compact non-left-recursive grammars using the selective left-corner transform and factoring
+Authors: Mark Johnson, Brian Roark
+Summary: The left-corner transform removes left-recursion from (probabilistic) context-free grammars and unification grammars, permitting simple top-down parsing techniques to be used. Unfortunately the grammars produced by the standard left-corner transform are usually much larger than the original. The selective left-corner transform described in this paper produces a transformed grammar which simulates left-corner recognition of a user-specified set of the original productions, and top-down recognition of the others. Combined with two factorizations, it produces non-left-recursive grammars that are not much larger than the original.
+
+---Research Output---
+Timestamp: 2025-06-07 07:13:45
+
+The original Transformer paper, titled 'Attention is All You Need,' was published in 2017 by Vaswani et al. This paper introduced the Transformer model, a novel architecture designed to handle sequential data, particularly in the context of natural language processing (NLP). The key innovation of the Transformer is the use of self-attention mechanisms, which allow the model to weigh the importance of input elements with respect to each other, regardless of their distance in the sequence. This approach eliminates the need for recurrent neural networks (RNNs) and convolutional neural networks (CNNs), which were previously used for sequential data tasks. The Transformer model has since become a foundational component in many state-of-the-art NLP models, including those used for machine translation, text generation, and more. The paper also introduced several other important concepts, such as positional encoding, which adds information about the position of tokens in the sequence, and multi-head attention, which allows the model to focus on different parts of the input sequence simultaneously. The Transformer architecture has been widely adopted and has led to significant advancements in the field of NLP and beyond. The paper can be found at the following URL: https://arxiv.org/abs/1706.03762
+
+---Research Output---
+Timestamp: 2025-06-07 07:17:01
+
+Published: 2025-02-17
+Title: Locally-Deployed Chain-of-Thought (CoT) Reasoning Model in Chemical Engineering: Starting from 30 Experimental Data
+Authors: Tianhang Zhou, Yingchun Niu, Xingying Lan, Chunming Xu
+Summary: In the field of chemical engineering, traditional data-processing and
+prediction methods face significant challenges. Machine-learning and
+large-language models (LLMs) also have their respective limitations. This paper
+explores the application of the Chain-of-Thought (CoT) reasoning model in
+chemical engineering, starting from 30 experimental data points. By integrating
+traditional surrogate models like Gaussian processes and random forests with
+powerful LLMs such as DeepSeek-R1, a hierarchical architecture is proposed. Two
+CoT-building methods, Large Language Model-Chain of Thought (LLM-CoT) and
+Machine Learning-Large Language Model-Chain of Thought (ML-LLM-CoT), are
+studied. The LLM-CoT combines local models DeepSeek-r1:14b and Qwen2:7b with
+Ollama. The ML-LLM-CoT integrates a pre-trained Gaussian ML model with the
+LLM-based CoT framework. Our results show that during construction, ML-LLM-CoT
+is more efficient. It only has 2 points that require rethink and a total of 4
+rethink times, while LLM-CoT has 5 points that need to be re-thought and 34
+total rethink times. In predicting the solubility of 20 molecules with
+dissimilar structures, the number of molecules with a prediction deviation
+higher than 100% for the Gaussian model, LLM-CoT, and ML-LLM-CoT is 7, 6, and
+4 respectively. These results indicate that ML-LLM-CoT performs better in
+controlling the number of high-deviation molecules, optimizing the average
+deviation, and achieving a higher success rate in solubility judgment,
+providing a more reliable method for chemical engineering and molecular
+property prediction. This study breaks through the limitations of traditional
+methods and offers new solutions for rapid property prediction and process
+optimization in chemical engineering.
+
+Published: 2025-02-12
+Title: The Paradox of Stochasticity: Limited Creativity and Computational Decoupling in Temperature-Varied LLM Outputs of Structured Fictional Data
+Authors: Evgenii Evstafev
+Summary: This study examines how temperature settings and model architectures affect
+the generation of structured fictional data (names, birthdates) across three
+large language models (LLMs): llama3.1:8b, deepseek-r1:8b, and mistral:latest.
+By systematically testing temperature values from 0.0 to 1.0 in increments of
+0.1, we conducted 330 trials yielding 889 structured entities, validated for
+syntactic consistency. Key findings reveal that model architecture
+significantly influences computational efficiency, with mistral:latest and
+llama3.1:8b processing data 8x faster than deepseek-r1:8b. Contrary to
+expectations, temperature showed no correlation with processing time,
+challenging assumptions about stochastic sampling costs. Output diversity
+remained limited, as models consistently defaulted to common name archetypes
+(e.g., 'John Doe' and 'Jane Smith') across all temperatures, though rare names
+clustered at intermediate values (0.3-0.7). These results demonstrate that
+architectural optimizations, rather than temperature adjustments, dominate
+performance in structured generation tasks. The findings emphasize prioritizing
+model selection over hyperparameter tuning for efficiency and suggest explicit
+diversity constraints are necessary to mitigate default output biases in
+synthetic data pipelines.
+
+Published: 2025-01-31
+Title: o3-mini vs DeepSeek-R1: Which One is Safer?
+Authors: Aitor Arrieta, Miriam Ugarte, Pablo Valle, José Antonio Parejo, Sergio Segura
+Summary: The irruption of DeepSeek-R1 constitutes a turning point for the AI industry
+in general and the LLMs in particular. Its capabilities have demonstrated
+outstanding performance in several tasks, including creative thinking, code
+generation, maths and automated program repair, at apparently lower execution
+cost. However, LLMs must be used with caution, as they can be exploited to
+produce harmful content. This paper presents a comparative study between
+DeepSeek-R1 and o3-mini, two of the most popular LLMs, in terms of safety and
+robustness. The study evaluates the models' performance in generating harmful
+content, such as hate speech, misinformation, and cyberbullying, and their
+resilience to adversarial attacks. The results show that DeepSeek-R1 is more
+robust and safer than o3-mini, as it generates less harmful content and is less
+vulnerable to adversarial attacks. However, both models still have room for
+improvement in terms of safety and robustness. The paper also discusses the
+ethical implications of using LLMs and the need for responsible AI development.
+
+---Research Output---
+Timestamp: 2025-06-07 07:19:44
+
+The transformer is a deep learning architecture introduced in the 2017 paper 'Attention is All You Need' by Vaswani et al. It is designed to handle sequential data, such as natural language, and has been particularly successful in the field of natural language processing (NLP). The transformer model uses self-attention mechanisms to weigh the importance of input data, allowing it to capture dependencies regardless of their distance in the sequence. This architecture has been instrumental in achieving state-of-the-art results in various NLP tasks, including machine translation, text summarization, and question answering. The transformer model has also inspired numerous variations and extensions, contributing to its widespread adoption in both research and industry. The transformer model consists of an encoder-decoder structure, where both the encoder and decoder are composed of stacked layers of self-attention and feed-forward neural networks. The self-attention mechanism allows the model to focus on different parts of the input sequence when generating each output, making it highly effective for tasks that require understanding context and dependencies. The transformer architecture has several key advantages, including parallelization of training, which makes it more efficient than recurrent neural networks (RNNs) and long short-term memory (LSTM) networks. Additionally, the transformer's ability to handle long-range dependencies and its flexibility in processing sequential data have made it a popular choice for a wide range of applications beyond NLP, such as computer vision and speech recognition. In summary, the transformer model represents a significant advancement in deep learning, particularly in the field of NLP. Its innovative use of self-attention mechanisms and encoder-decoder structure has enabled it to achieve state-of-the-art performance in various tasks and has inspired numerous research directions and practical applications.
+
+---Research Output---
+Timestamp: 2025-06-07 07:22:10
+
+The transformer is a deep learning architecture introduced in the 2017 paper "Attention is All You Need" by Vaswani et al. It is designed to handle sequential data, such as natural language, by using self-attention mechanisms. Unlike recurrent neural networks (RNNs), transformers process input data in parallel, making them more efficient for tasks like machine translation, text generation, and other natural language processing (NLP) applications. The key innovation is the use of self-attention, which allows the model to weigh the importance of different input elements relative to each other, enabling it to capture long-range dependencies in the data. Transformers have become a foundational model in NLP and have been adapted for various other domains, including computer vision and speech recognition.
+
+---Research Output---
+Timestamp: 2025-06-07 07:34:09
+
+Topic: Volume Chart for APPL Stock
+
+Summary:
+The volume chart for APPL stock for the past week is provided below. The chart shows the trading volume of APPL stock over the past week, indicating the number of shares traded each day. This data can be useful for analyzing trading activity and market sentiment.
+
+Sources: Alpha Vantage Financial Data
+Tools Used: Financial_Chart_Generator
+
+---Research Output---
+Timestamp: 2025-06-07 07:37:33
+
+AAPL stock chart for last month
+
+---Research Output---
+Timestamp: 2025-06-07 07:39:42
+
+AAPL stock data
+
+---Research Output---
+Timestamp: 2025-06-07 07:42:32
+
+AAPL volume chart for past month
+
